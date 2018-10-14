@@ -1,0 +1,34 @@
+- [] object system, useless in fact
+- [done] deferred job
+- [] cmder
+    - [] task related commands:
+    - [] memory related commands:
+- [] vfs
+     - [] devfs
+     - [] romfs
+- [] driver model
+     - [] logic driver model (hal)
+          - [done] halintctlr
+          - [done] haltimer
+          - [done] haluart
+          - [] halpin
+     - [done] driver init method (done a draft)
+     - [] bus driver model (no plan for now)
+- [done] system timer, and timestamp, depend on "driver model":"logic driver model":"haltimer"
+- [] execption
+- [] signal
+- [] no-free heap, meaning heap used in cert
+- [] tlsf?
+- [] coroutine?
+- [] assert, and use assert as many as possible, as RT system always build time certain
+- [] add mpu/mmu support
+- [] status_t
+- [done] static task started by task.c::static-task-launch
+- [] macro name RTW_CONFIG_XX
+- [] sysinfo
+- [] armv7m support
+- [] armv7ar support
+- [] mips support
+- [] risc-v support
+- [] make system
+- [] kconfig like system
